@@ -38,10 +38,10 @@ Instructivo que sirve como guía en la instalación de ciertas aplicaciones
 
 3. Ejecutar como administrador el programa, se le solicitará ingresar las credenciales anteriormente creadas y de manera intuitiva, instar todo por defecto.
 4. Continuar con la instalación hasta finalizarla. 
-5. Agregar en el PATH en las variables de entorno (Direcciones donde se encuentra la instalación)
+5. Agregar en el PATH en las variables de entorno las direcciones de CMake y del compilador MinGW (Direcciones donde se encuentra la instalación)
 ```bash
-C:\Qt\Tools\CMake_64\bin    or   
-C:\Program Files\CMake\bin   
+C:\Qt\Tools\CMake_64\bin        -> CMake
+C:\Qt\Tools\mingw1310_64\bin    -> MinGW
 ```
 6. Correr los siguientes comandos en la terminal para saber si se instaló correctamente.
 ```bash
@@ -64,9 +64,9 @@ cmake --version
 ## Agregar al PATH
 1. Presiona **Win + S**
 2. Escribe: variables de entorno
-3. Abre: Editar las variables de entorno del sistema
+3. Abre: `Editar las variables de Entorno del Sistema`
 4. Entra a Variables de entorno
-5. En "Variables del sistema", busca Path
+5. En esta opción, se mostrarán dos tipos de variables, la primera "Variables de usuario para #nombre" son para un usuario en específico del Sistema, y el otro se aplicará para todos los usuarios creados en el Computador. Desplegar la barra de navegación hasta encontrar donde diga **Path**, seleccionarlo,
 6. Dale a Editar
 7. Agrega una nueva ruta, por ejemplo se agregará Qt 
 
@@ -74,6 +74,6 @@ La dirección de instalación de Qt sería: `C:\Qt\Tools\CMake_64\bin`
 
 ![alt text](image-2.png)
 
-
+8. Una vez agregados, dar en la opción de Aceptar en todas las ventanas emergentes y se recomendará Reiniciar el computador para efectuar cualquier cambio pendiente.
 
 

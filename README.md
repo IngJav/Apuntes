@@ -9,6 +9,18 @@
 ![Windows](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
 
 ---
+## Inicialización Proyecto C#
+```bash
+dotnet new console -n MiProyecto
+cd MiProyecto
+dotnet run
+```
+
+
+
+
+
+
 ## Descripción General
 
 Aplicación desarrollada en C++ que permite analizar el rendimiento académico de estudiantes mediante el procesamiento de archivos `.lfp`, generando reportes estadísticos dinámicos en formato HTML.
@@ -153,16 +165,12 @@ git clone https://github.com/IngJav/LFP_A_1S2026.git
    `Practica1`
 
 ---
-## Error en Compilación
-Si se realiza alguna modificación al código y se tiene problema en la compilación, correr el siguiente código en la términal de la carpeta **LFP_A_1S2026**:
+
+
 
 ```bash
 g++ Practica1/Menu.cpp Practica1/Sistema.cpp Practica1/CargarE.cpp Practica1/CargarN.cpp Practica1/CargarC.cpp -o Practica1/Menu.exe
 ```
 
 
-```bash
-dotnet new console -n MiProyecto
-cd MiProyecto
-dotnet run
-```
+
